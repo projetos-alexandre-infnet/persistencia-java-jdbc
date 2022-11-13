@@ -5,78 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cf47e1b-5eb8-4ae5-87b2-588aa7599380" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/AppPagamentoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/AppTeste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/ClienteTeste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/ConsumoTeste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/ExtraTeste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/PagamentoTeste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/TributoTeste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/UsuarioTeste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/controller/AppController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/controller/ClienteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/controller/ConsumoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/controller/ContaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/controller/ExtraController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/controller/PagamentoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/controller/TributoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/controller/UsuarioController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/interfaces/IPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/model/domain/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/model/domain/Consumo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/model/domain/Conta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/model/domain/Extra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/model/domain/Pagamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/model/domain/Tributo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/model/domain/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/model/domain/app/Atributo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/model/domain/app/Classe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/model/domain/app/Projeto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/model/exceptions/ClienteInvalidoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/model/exceptions/ConjuntoDeContasInvalidoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/model/exceptions/ConsumoInvalidoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/model/exceptions/CpfOuCnpjInvalidoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/model/exceptions/ImpostoInvalidoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/model/exceptions/QuantidadeDeParcelasInvalidaException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/model/service/AppService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/model/service/ClienteService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/model/service/ConsumoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/model/service/ContaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/model/service/ExtraService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/model/service/PagamentoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/model/service/TributoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/model/service/UsuarioService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/model/test/AppImpressao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/files/app.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/files/cliente.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/files/consumo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/files/conta.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/files/pagamento.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/files/usuarios.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/cliente/cadastro.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/cliente/lista.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/consumo/cadastro.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/consumo/lista.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/conta/cadastro.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/conta/lista.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/extra/cadastro.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/extra/lista.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/menu.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pagamento/cadastro.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pagamento/lista.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/tributo/cadastro.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/tributo/lista.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/usuario/cadastro.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/usuario/lista.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/edu/infnet/apppagamento/AppPagamentoApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/model/persistence/ClienteDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/model/persistence/IDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/model/persistence/JdbcDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/model/persistence/JdbcUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/model/domain/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/model/domain/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/model/domain/Consumo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/model/domain/Consumo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/model/domain/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/model/domain/Conta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/model/domain/Extra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/model/domain/Extra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/model/domain/Pagamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/model/domain/Pagamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/model/domain/Tributo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/model/domain/Tributo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/model/domain/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/model/domain/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/model/service/ClienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/infnet/apppagamento/model/service/ClienteService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +46,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/alexandre/projetos/persistencia-java-projetos/persistencia-java-jpa"
+    "last_opened_file_path": "/home/alexandre/projetos/persistencia-java-projetos/persistencia-java-jdbc"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

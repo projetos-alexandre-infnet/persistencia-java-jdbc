@@ -5,11 +5,7 @@ import br.edu.infnet.apppagamento.model.exceptions.ConsumoInvalidoException;
 import br.edu.infnet.apppagamento.model.exceptions.ImpostoInvalidoException;
 import br.edu.infnet.apppagamento.model.exceptions.QuantidadeDeParcelasInvalidaException;
 
-import javax.persistence.Entity;
-import javax.persistence.Table;
 
-@Entity
-@Table(name = "TConsumo")
 public class Consumo extends Conta {
 	private String item;
 	private Integer quantidadeDeItens;

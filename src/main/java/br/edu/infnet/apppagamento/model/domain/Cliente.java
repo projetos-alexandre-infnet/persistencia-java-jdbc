@@ -1,28 +1,14 @@
 package br.edu.infnet.apppagamento.model.domain;
 
-import br.edu.infnet.apppagamento.model.exceptions.CpfOuCnpjInvalidoException;
 import br.edu.infnet.apppagamento.interfaces.IPrinter;
+import br.edu.infnet.apppagamento.model.exceptions.CpfOuCnpjInvalidoException;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
-import javax.persistence.OneToMany;
-import javax.persistence.Table;
 
-@Entity
-@Table(name = "TCliente")
 public class Cliente implements IPrinter {
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
 	private String nome;
 	private String email;
 	private String cpfOuCpnj;
-	@ManyToOne
-	@JoinColumn(name = "idUsuario")
 	private Usuario usuario;
 	
 

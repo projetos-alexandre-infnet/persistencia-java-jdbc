@@ -4,11 +4,7 @@ import br.edu.infnet.apppagamento.model.exceptions.ConsumoInvalidoException;
 import br.edu.infnet.apppagamento.model.exceptions.ImpostoInvalidoException;
 import br.edu.infnet.apppagamento.model.exceptions.QuantidadeDeParcelasInvalidaException;
 
-import javax.persistence.Entity;
-import javax.persistence.Table;
 
-@Entity
-@Table(name = "TExtra")
 public class Extra extends Conta {
 	private Integer numeroDeParcelas;
 	private boolean pagamentoLote;
